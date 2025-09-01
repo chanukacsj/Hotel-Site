@@ -1,0 +1,36 @@
+.nav-link{
+    margin-left: 20px;
+}
+#navbarSupportedContent{
+    position: absolute;
+    right: 0;
+    margin-right: 85px;
+}
+h1{
+    font-size: 50px;
+}
+.navbar-brand img{
+    height: 30px;
+    width: 179px ;
+}
+.navbar{
+  z-index: 1;
+}
+
+.row{
+    margin-top: 2rem !important;;
+}
+footer p{
+    text-align: left;
+}
+footer h5{
+   text-align: left;
+   font-size: 1.1rem;
+}
+@media (min-width:768px) and (max-width:1024px) {
+    .navbar-brand img{
+        height: 20px;
+        width: 130px;
+        margin-bottom: 5px;
+    }
+  }
